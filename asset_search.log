@@ -1,0 +1,417 @@
+2026-01-05 20:54:17,745 - uvicorn.error - INFO - Will watch for changes in these directories: ['/Applications/XAMPP/xamppfiles/htdocs/s5-search']
+2026-01-05 20:54:17,745 - uvicorn.error - INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2026-01-05 20:54:17,748 - uvicorn.error - INFO - Started reloader process [78614] using WatchFiles
+2026-01-05 20:54:20,659 - uvicorn.error - INFO - Started server process [78621]
+2026-01-05 20:54:20,660 - uvicorn.error - INFO - Waiting for application startup.
+2026-01-05 20:54:20,661 - uvicorn.error - INFO - Application startup complete.
+2026-01-05 20:54:52,931 - uvicorn.error - INFO - Will watch for changes in these directories: ['/Applications/XAMPP/xamppfiles/htdocs/s5-search']
+2026-01-05 20:54:52,934 - uvicorn.error - ERROR - [Errno 48] Address already in use
+2026-01-05 20:54:53,161 - watchfiles.main - INFO - 1 change detected
+2026-01-05 20:56:31,257 - uvicorn.error - INFO - Will watch for changes in these directories: ['/Applications/XAMPP/xamppfiles/htdocs/s5-search']
+2026-01-05 20:56:31,258 - uvicorn.error - INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2026-01-05 20:56:31,262 - uvicorn.error - INFO - Started reloader process [78876] using WatchFiles
+2026-01-05 20:56:33,258 - uvicorn.error - INFO - Started server process [78879]
+2026-01-05 20:56:33,259 - uvicorn.error - INFO - Waiting for application startup.
+2026-01-05 20:56:33,259 - uvicorn.error - INFO - Application startup complete.
+2026-01-05 20:56:51,223 - watchfiles.main - INFO - 1 change detected
+2026-01-05 20:56:51,227 - uvicorn.error - WARNING - WatchFiles detected changes in 'search.py'. Reloading...
+2026-01-05 20:56:51,259 - uvicorn.error - INFO - Shutting down
+2026-01-05 20:56:51,364 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-01-05 20:56:51,365 - uvicorn.error - INFO - Application shutdown complete.
+2026-01-05 20:56:51,365 - uvicorn.error - INFO - Finished server process [78879]
+2026-01-05 20:56:51,738 - watchfiles.main - INFO - 1 change detected
+2026-01-05 20:56:52,098 - watchfiles.main - INFO - 3 changes detected
+2026-01-05 20:56:53,408 - uvicorn.error - INFO - Started server process [78882]
+2026-01-05 20:56:53,409 - uvicorn.error - INFO - Waiting for application startup.
+2026-01-05 20:56:53,409 - uvicorn.error - INFO - Application startup complete.
+2026-01-05 20:57:45,287 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2026-01-05 20:57:45,289 - search - ERROR - Search failed for 'string': Error code: 401 - {'error': {'message': 'Incorrect API key provided: pcsk_32R***************************************************************YnW3. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-01-05 20:57:45,289 - search - ERROR - API search failed: Error code: 401 - {'error': {'message': 'Incorrect API key provided: pcsk_32R***************************************************************YnW3. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-01-05 21:00:13,647 - watchfiles.main - INFO - 1 change detected
+2026-01-05 21:00:13,651 - uvicorn.error - WARNING - WatchFiles detected changes in 'search.py'. Reloading...
+2026-01-05 21:00:13,718 - uvicorn.error - INFO - Shutting down
+2026-01-05 21:00:13,823 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-01-05 21:00:13,825 - uvicorn.error - INFO - Application shutdown complete.
+2026-01-05 21:00:13,825 - uvicorn.error - INFO - Finished server process [78882]
+2026-01-05 21:00:14,200 - watchfiles.main - INFO - 1 change detected
+2026-01-05 21:00:14,566 - watchfiles.main - INFO - 3 changes detected
+2026-01-05 21:00:16,100 - uvicorn.error - ERROR - Error loading ASGI app. Attribute "app" not found in module "search".
+2026-01-05 21:00:16,179 - watchfiles.main - INFO - 1 change detected
+2026-01-05 21:00:47,329 - watchfiles.main - INFO - 1 change detected
+2026-01-05 21:00:47,336 - uvicorn.error - WARNING - WatchFiles detected changes in 'main.py'. Reloading...
+2026-01-05 21:00:48,756 - watchfiles.main - INFO - 1 change detected
+2026-01-05 21:00:48,757 - uvicorn.error - WARNING - WatchFiles detected changes in 'main.py'. Reloading...
+2026-01-05 21:00:49,862 - uvicorn.error - ERROR - Error loading ASGI app. Attribute "app" not found in module "search".
+2026-01-05 21:00:50,354 - watchfiles.main - INFO - 1 change detected
+2026-01-05 21:00:52,105 - uvicorn.error - ERROR - Error loading ASGI app. Attribute "app" not found in module "search".
+2026-01-05 21:00:52,231 - watchfiles.main - INFO - 1 change detected
+2026-01-05 21:01:10,786 - watchfiles.main - INFO - 3 changes detected
+2026-01-05 21:01:53,331 - watchfiles.main - INFO - 1 change detected
+2026-01-05 21:01:53,332 - uvicorn.error - WARNING - WatchFiles detected changes in 'main.py'. Reloading...
+2026-01-05 21:01:53,696 - watchfiles.main - INFO - 3 changes detected
+2026-01-05 21:01:55,195 - uvicorn.error - ERROR - Error loading ASGI app. Attribute "app" not found in module "search".
+2026-01-05 21:01:55,297 - watchfiles.main - INFO - 1 change detected
+2026-01-05 21:04:32,769 - uvicorn.error - INFO - Stopping reloader process [78876]
+2026-01-05 21:05:56,252 - uvicorn.error - INFO - Will watch for changes in these directories: ['/Applications/XAMPP/xamppfiles/htdocs/s5-search']
+2026-01-05 21:05:56,253 - uvicorn.error - INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2026-01-05 21:05:56,254 - uvicorn.error - INFO - Started reloader process [79801] using WatchFiles
+2026-01-05 21:05:57,413 - uvicorn.error - INFO - Started server process [79805]
+2026-01-05 21:05:57,415 - uvicorn.error - INFO - Waiting for application startup.
+2026-01-05 21:05:57,415 - uvicorn.error - INFO - Application startup complete.
+2026-01-05 21:06:50,988 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2026-01-05 21:06:50,992 - search - ERROR - Search failed for 'string': Error code: 401 - {'error': {'message': 'Incorrect API key provided: pcsk_32R***************************************************************YnW3. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-01-05 21:06:50,992 - search - ERROR - API search failed: Error code: 401 - {'error': {'message': 'Incorrect API key provided: pcsk_32R***************************************************************YnW3. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-01-05 21:09:56,928 - watchfiles.main - INFO - 1 change detected
+2026-01-05 21:09:56,936 - uvicorn.error - WARNING - WatchFiles detected changes in 'search.py'. Reloading...
+2026-01-05 21:09:56,953 - uvicorn.error - INFO - Shutting down
+2026-01-05 21:09:57,060 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-01-05 21:09:57,063 - uvicorn.error - INFO - Application shutdown complete.
+2026-01-05 21:09:57,065 - uvicorn.error - INFO - Finished server process [79805]
+2026-01-05 21:09:57,581 - watchfiles.main - INFO - 1 change detected
+2026-01-05 21:09:57,946 - watchfiles.main - INFO - 3 changes detected
+2026-01-05 21:09:59,328 - uvicorn.error - INFO - Started server process [79922]
+2026-01-05 21:09:59,329 - uvicorn.error - INFO - Waiting for application startup.
+2026-01-05 21:09:59,330 - uvicorn.error - INFO - Application startup complete.
+2026-01-05 21:10:13,719 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-05 21:10:16,511 - search - INFO - SEARCH: 'string' | tokens: 1 | cost: $0.000000 | results: 10 | duration: 3.85s
+2026-01-05 21:10:16,511 - search - ERROR - API search failed: name 'datetime' is not defined
+2026-01-05 21:11:27,031 - watchfiles.main - INFO - 1 change detected
+2026-01-05 21:11:27,035 - uvicorn.error - WARNING - WatchFiles detected changes in 'search.py'. Reloading...
+2026-01-05 21:11:27,076 - uvicorn.error - INFO - Shutting down
+2026-01-05 21:11:27,181 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-01-05 21:11:27,182 - uvicorn.error - INFO - Application shutdown complete.
+2026-01-05 21:11:27,182 - uvicorn.error - INFO - Finished server process [79922]
+2026-01-05 21:11:27,724 - watchfiles.main - INFO - 1 change detected
+2026-01-05 21:11:28,085 - watchfiles.main - INFO - 3 changes detected
+2026-01-05 21:11:29,509 - uvicorn.error - INFO - Started server process [79969]
+2026-01-05 21:11:29,510 - uvicorn.error - INFO - Waiting for application startup.
+2026-01-05 21:11:29,510 - uvicorn.error - INFO - Application startup complete.
+2026-01-05 21:11:39,202 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-05 21:11:41,563 - search - INFO - SEARCH: 'string' | tokens: 1 | cost: $0.000000 | results: 10 | 
+2026-01-05 21:11:41,563 - search - ERROR - API search failed: name 'datetime' is not defined
+2026-01-05 21:12:28,343 - watchfiles.main - INFO - 1 change detected
+2026-01-05 21:12:28,346 - uvicorn.error - WARNING - WatchFiles detected changes in 'main.py'. Reloading...
+2026-01-05 21:12:28,379 - uvicorn.error - INFO - Shutting down
+2026-01-05 21:12:28,484 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-01-05 21:12:28,486 - uvicorn.error - INFO - Application shutdown complete.
+2026-01-05 21:12:28,488 - uvicorn.error - INFO - Finished server process [79969]
+2026-01-05 21:12:29,006 - watchfiles.main - INFO - 1 change detected
+2026-01-05 21:12:29,368 - watchfiles.main - INFO - 3 changes detected
+2026-01-05 21:12:30,736 - uvicorn.error - INFO - Started server process [79989]
+2026-01-05 21:12:30,737 - uvicorn.error - INFO - Waiting for application startup.
+2026-01-05 21:12:30,737 - uvicorn.error - INFO - Application startup complete.
+2026-01-05 21:12:39,718 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-05 21:12:42,083 - search - INFO - SEARCH: 'string' | tokens: 1 | cost: $0.000000 | results: 10 | 
+2026-01-05 21:12:42,085 - search - ERROR - API search failed: 1 validation error for SearchResponse
+search_timestamp
+  Field required [type=missing, input_value={'assets': [{'id': '1280e...e-08, 'total_tokens': 1}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-01-05 21:13:24,184 - watchfiles.main - INFO - 1 change detected
+2026-01-05 21:13:24,188 - uvicorn.error - WARNING - WatchFiles detected changes in 'main.py'. Reloading...
+2026-01-05 21:13:24,275 - uvicorn.error - INFO - Shutting down
+2026-01-05 21:13:24,379 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-01-05 21:13:24,379 - uvicorn.error - INFO - Application shutdown complete.
+2026-01-05 21:13:24,380 - uvicorn.error - INFO - Finished server process [79989]
+2026-01-05 21:13:24,884 - watchfiles.main - INFO - 1 change detected
+2026-01-05 21:13:25,247 - watchfiles.main - INFO - 3 changes detected
+2026-01-05 21:13:26,951 - uvicorn.error - INFO - Started server process [80008]
+2026-01-05 21:13:26,951 - uvicorn.error - INFO - Waiting for application startup.
+2026-01-05 21:13:26,952 - uvicorn.error - INFO - Application startup complete.
+2026-01-05 21:13:35,030 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-05 21:13:38,270 - search - INFO - SEARCH: 'string' | tokens: 1 | cost: $0.000000 | results: 10 | 
+2026-01-05 21:52:52,421 - watchfiles.main - INFO - 1 change detected
+2026-01-05 21:56:15,163 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-05 21:56:17,901 - search - INFO - SEARCH: 'yellow truck' | tokens: 2 | cost: $0.000000 | results: 10 | 
+2026-01-06 08:09:04,290 - watchfiles.main - INFO - 34 changes detected
+2026-01-06 08:12:35,981 - watchfiles.main - INFO - 1 change detected
+2026-01-06 08:14:19,759 - watchfiles.main - INFO - 1 change detected
+2026-01-06 08:14:30,300 - watchfiles.main - INFO - 1 change detected
+2026-01-06 08:14:51,355 - watchfiles.main - INFO - 35 changes detected
+2026-01-06 08:15:24,027 - watchfiles.main - INFO - 1 change detected
+2026-01-06 08:15:31,871 - watchfiles.main - INFO - 1 change detected
+2026-01-06 08:15:40,360 - watchfiles.main - INFO - 11 changes detected
+2026-01-06 08:15:51,566 - watchfiles.main - INFO - 2 changes detected
+2026-01-06 08:17:26,307 - watchfiles.main - INFO - 3 changes detected
+2026-01-06 08:17:28,847 - watchfiles.main - INFO - 2 changes detected
+2026-01-06 08:18:20,251 - watchfiles.main - INFO - 1 change detected
+2026-01-06 08:18:28,616 - watchfiles.main - INFO - 2 changes detected
+2026-01-06 08:18:39,125 - watchfiles.main - INFO - 7 changes detected
+2026-01-06 08:18:41,331 - watchfiles.main - INFO - 2 changes detected
+2026-01-06 08:19:06,103 - watchfiles.main - INFO - 3 changes detected
+2026-01-06 08:19:08,959 - watchfiles.main - INFO - 2 changes detected
+2026-01-06 08:19:11,972 - watchfiles.main - INFO - 2 changes detected
+2026-01-06 08:19:45,329 - watchfiles.main - INFO - 24 changes detected
+2026-01-06 08:21:31,566 - watchfiles.main - INFO - 4 changes detected
+2026-01-06 08:23:01,694 - watchfiles.main - INFO - 1 change detected
+2026-01-06 08:23:08,948 - watchfiles.main - INFO - 1 change detected
+2026-01-06 08:23:21,193 - watchfiles.main - INFO - 1 change detected
+2026-01-06 08:23:29,171 - watchfiles.main - INFO - 7 changes detected
+2026-01-06 08:23:32,574 - watchfiles.main - INFO - 2 changes detected
+2026-01-06 08:24:04,552 - watchfiles.main - INFO - 3 changes detected
+2026-01-06 08:24:07,286 - watchfiles.main - INFO - 3 changes detected
+2026-01-06 08:24:15,487 - watchfiles.main - INFO - 2 changes detected
+2026-01-06 08:24:29,536 - watchfiles.main - INFO - 2 changes detected
+2026-01-06 08:24:58,167 - watchfiles.main - INFO - 2 changes detected
+2026-01-06 08:25:04,413 - watchfiles.main - INFO - 21 changes detected
+2026-01-06 08:25:21,647 - watchfiles.main - INFO - 15 changes detected
+2026-01-06 08:25:35,634 - watchfiles.main - INFO - 3 changes detected
+2026-01-06 08:26:31,488 - watchfiles.main - INFO - 2 changes detected
+2026-01-06 08:26:41,824 - watchfiles.main - INFO - 1 change detected
+2026-01-06 08:27:25,677 - watchfiles.main - INFO - 3 changes detected
+2026-01-06 08:27:28,104 - watchfiles.main - INFO - 3 changes detected
+2026-01-06 08:27:41,314 - watchfiles.main - INFO - 2 changes detected
+2026-01-06 08:27:46,980 - watchfiles.main - INFO - 3 changes detected
+2026-01-06 08:29:33,898 - watchfiles.main - INFO - 11 changes detected
+2026-01-06 08:29:38,318 - watchfiles.main - INFO - 2 changes detected
+2026-01-06 08:29:41,439 - watchfiles.main - INFO - 3 changes detected
+2026-01-06 08:31:14,760 - watchfiles.main - INFO - 2 changes detected
+2026-01-06 08:31:33,944 - watchfiles.main - INFO - 3 changes detected
+2026-01-06 08:32:16,214 - watchfiles.main - INFO - 2 changes detected
+2026-01-07 09:59:49,905 - uvicorn.error - INFO - Will watch for changes in these directories: ['/Applications/XAMPP/xamppfiles/htdocs/s5search']
+2026-01-07 09:59:49,906 - uvicorn.error - INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2026-01-07 09:59:49,906 - uvicorn.error - INFO - Started reloader process [2566] using WatchFiles
+2026-01-07 09:59:52,136 - uvicorn.error - INFO - Started server process [2570]
+2026-01-07 09:59:52,137 - uvicorn.error - INFO - Waiting for application startup.
+2026-01-07 09:59:52,138 - uvicorn.error - INFO - Application startup complete.
+2026-01-07 10:00:22,035 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 10:00:23,990 - search - INFO - SEARCH: 'string' | tokens: 1 | cost: $0.000000 | results: 10 | 
+2026-01-07 10:04:35,171 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 10:04:36,944 - search - INFO - SEARCH: 'yellow truck' | tokens: 2 | cost: $0.000000 | results: 10 | 
+2026-01-07 10:05:00,836 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 10:05:01,384 - search - INFO - SEARCH: 'swimming pool' | tokens: 3 | cost: $0.000000 | results: 10 | 
+2026-01-07 10:12:10,270 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 10:12:12,081 - search - INFO - SEARCH: 'indoor swimming pool' | tokens: 4 | cost: $0.000000 | results: 10 | 
+2026-01-07 10:12:33,460 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 10:12:33,757 - search - INFO - SEARCH: 'indoor swimming pool with scoreboard' | tokens: 6 | cost: $0.000000 | results: 10 | 
+2026-01-07 10:15:46,155 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 10:15:47,609 - search - INFO - SEARCH: '185c0a0a-4c6f-465a-a3ea-35e616b87ad9' | tokens: 25 | cost: $0.000000 | results: 10 | 
+2026-01-07 10:16:55,529 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 10:16:56,928 - search - INFO - SEARCH: 'modern pergola' | tokens: 3 | cost: $0.000000 | results: 10 | 
+2026-01-07 11:16:35,688 - watchfiles.main - INFO - 1 change detected
+2026-01-07 11:16:35,693 - uvicorn.error - WARNING - WatchFiles detected changes in 'search.py'. Reloading...
+2026-01-07 11:16:35,762 - uvicorn.error - INFO - Shutting down
+2026-01-07 11:16:35,866 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-01-07 11:16:35,867 - uvicorn.error - INFO - Application shutdown complete.
+2026-01-07 11:16:35,868 - uvicorn.error - INFO - Finished server process [2570]
+2026-01-07 11:16:36,325 - watchfiles.main - INFO - 1 change detected
+2026-01-07 11:16:37,695 - uvicorn.error - INFO - Started server process [3232]
+2026-01-07 11:16:37,696 - uvicorn.error - INFO - Waiting for application startup.
+2026-01-07 11:16:37,696 - uvicorn.error - INFO - Application startup complete.
+2026-01-07 11:16:55,484 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 11:16:57,272 - search - ERROR - Search failed for 'modern pergola': get expected at most 2 arguments, got 3
+2026-01-07 11:16:57,272 - search - ERROR - API search failed: get expected at most 2 arguments, got 3
+2026-01-07 11:17:53,595 - watchfiles.main - INFO - 1 change detected
+2026-01-07 11:17:53,596 - uvicorn.error - WARNING - WatchFiles detected changes in 'search.py'. Reloading...
+2026-01-07 11:17:53,619 - uvicorn.error - INFO - Shutting down
+2026-01-07 11:17:53,724 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-01-07 11:17:53,728 - uvicorn.error - INFO - Application shutdown complete.
+2026-01-07 11:17:53,730 - uvicorn.error - INFO - Finished server process [3232]
+2026-01-07 11:17:54,265 - watchfiles.main - INFO - 1 change detected
+2026-01-07 11:17:55,663 - uvicorn.error - INFO - Started server process [3255]
+2026-01-07 11:17:55,663 - uvicorn.error - INFO - Waiting for application startup.
+2026-01-07 11:17:55,664 - uvicorn.error - INFO - Application startup complete.
+2026-01-07 11:18:14,344 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 11:18:15,985 - search - INFO - SEARCH: 'modern pergola' | tokens: 3 | cost: $0.000000 | results: 10 | 
+2026-01-07 11:18:54,761 - watchfiles.main - INFO - 1 change detected
+2026-01-07 11:18:54,763 - uvicorn.error - WARNING - WatchFiles detected changes in 'search.py'. Reloading...
+2026-01-07 11:18:54,798 - uvicorn.error - INFO - Shutting down
+2026-01-07 11:18:54,900 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-01-07 11:18:54,902 - uvicorn.error - INFO - Application shutdown complete.
+2026-01-07 11:18:54,903 - uvicorn.error - INFO - Finished server process [3255]
+2026-01-07 11:18:55,384 - watchfiles.main - INFO - 1 change detected
+2026-01-07 11:18:56,708 - uvicorn.error - INFO - Started server process [3269]
+2026-01-07 11:18:56,709 - uvicorn.error - INFO - Waiting for application startup.
+2026-01-07 11:18:56,710 - uvicorn.error - INFO - Application startup complete.
+2026-01-07 11:19:28,794 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 11:19:30,221 - search - INFO - SEARCH: 'modern pergola' | tokens: 3 | cost: $0.000000 | results: 10 | 
+2026-01-07 11:21:16,308 - watchfiles.main - INFO - 1 change detected
+2026-01-07 11:21:16,309 - uvicorn.error - WARNING - WatchFiles detected changes in 'search.py'. Reloading...
+2026-01-07 11:21:16,311 - uvicorn.error - INFO - Shutting down
+2026-01-07 11:21:16,413 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-01-07 11:21:16,414 - uvicorn.error - INFO - Application shutdown complete.
+2026-01-07 11:21:16,414 - uvicorn.error - INFO - Finished server process [3269]
+2026-01-07 11:21:16,885 - watchfiles.main - INFO - 1 change detected
+2026-01-07 11:21:18,652 - uvicorn.error - INFO - Started server process [3300]
+2026-01-07 11:21:18,654 - uvicorn.error - INFO - Waiting for application startup.
+2026-01-07 11:21:18,655 - uvicorn.error - INFO - Application startup complete.
+2026-01-07 11:21:23,913 - watchfiles.main - INFO - 1 change detected
+2026-01-07 11:21:23,913 - uvicorn.error - WARNING - WatchFiles detected changes in 'search.py'. Reloading...
+2026-01-07 11:21:24,003 - uvicorn.error - INFO - Shutting down
+2026-01-07 11:21:24,104 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-01-07 11:21:24,105 - uvicorn.error - INFO - Application shutdown complete.
+2026-01-07 11:21:24,105 - uvicorn.error - INFO - Finished server process [3300]
+2026-01-07 11:21:24,542 - watchfiles.main - INFO - 1 change detected
+2026-01-07 11:21:25,633 - uvicorn.error - INFO - Started server process [3307]
+2026-01-07 11:21:25,634 - uvicorn.error - INFO - Waiting for application startup.
+2026-01-07 11:21:25,634 - uvicorn.error - INFO - Application startup complete.
+2026-01-07 11:21:34,404 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 11:21:35,835 - search - INFO - SEARCH: 'modern pergola' | tokens: 3 | cost: $0.000000 | results: 10 | 
+2026-01-07 11:22:12,736 - watchfiles.main - INFO - 1 change detected
+2026-01-07 11:22:12,737 - uvicorn.error - WARNING - WatchFiles detected changes in 'search.py'. Reloading...
+2026-01-07 11:22:12,822 - uvicorn.error - INFO - Shutting down
+2026-01-07 11:22:12,922 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-01-07 11:22:12,923 - uvicorn.error - INFO - Application shutdown complete.
+2026-01-07 11:22:12,924 - uvicorn.error - INFO - Finished server process [3307]
+2026-01-07 11:22:13,396 - watchfiles.main - INFO - 1 change detected
+2026-01-07 11:22:14,799 - uvicorn.error - INFO - Started server process [3324]
+2026-01-07 11:22:14,800 - uvicorn.error - INFO - Waiting for application startup.
+2026-01-07 11:22:14,801 - uvicorn.error - INFO - Application startup complete.
+2026-01-07 11:22:49,243 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 11:22:50,693 - search - INFO - SEARCH: 'modern pergola' | tokens: 3 | cost: $0.000000 | results: 10 | 
+2026-01-07 11:22:59,464 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 11:23:00,080 - search - INFO - SEARCH: 'modern pergola' | tokens: 3 | cost: $0.000000 | results: 10 | 
+2026-01-07 11:23:14,444 - watchfiles.main - INFO - 1 change detected
+2026-01-07 11:23:14,445 - uvicorn.error - WARNING - WatchFiles detected changes in 'search.py'. Reloading...
+2026-01-07 11:23:14,532 - uvicorn.error - INFO - Shutting down
+2026-01-07 11:23:14,634 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-01-07 11:23:14,635 - uvicorn.error - INFO - Application shutdown complete.
+2026-01-07 11:23:14,636 - uvicorn.error - INFO - Finished server process [3324]
+2026-01-07 11:23:15,120 - watchfiles.main - INFO - 1 change detected
+2026-01-07 11:23:16,498 - uvicorn.error - INFO - Started server process [3344]
+2026-01-07 11:23:16,499 - uvicorn.error - INFO - Waiting for application startup.
+2026-01-07 11:23:16,500 - uvicorn.error - INFO - Application startup complete.
+2026-01-07 11:23:20,957 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 11:23:22,684 - search - INFO - SEARCH: 'modern pergola' | tokens: 3 | cost: $0.000000 | results: 10 | 
+2026-01-07 11:24:29,045 - watchfiles.main - INFO - 1 change detected
+2026-01-07 11:24:29,046 - uvicorn.error - WARNING - WatchFiles detected changes in 'search.py'. Reloading...
+2026-01-07 11:24:29,089 - uvicorn.error - INFO - Shutting down
+2026-01-07 11:24:29,191 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-01-07 11:24:29,192 - uvicorn.error - INFO - Application shutdown complete.
+2026-01-07 11:24:29,193 - uvicorn.error - INFO - Finished server process [3344]
+2026-01-07 11:24:29,679 - watchfiles.main - INFO - 1 change detected
+2026-01-07 11:24:31,173 - uvicorn.error - INFO - Started server process [3373]
+2026-01-07 11:24:31,174 - uvicorn.error - INFO - Waiting for application startup.
+2026-01-07 11:24:31,175 - uvicorn.error - INFO - Application startup complete.
+2026-01-07 11:24:39,935 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 11:24:41,471 - search - INFO - SEARCH: 'modern pergola' | tokens: 3 | cost: $0.000000 | results: 10 | 
+2026-01-07 11:43:18,147 - watchfiles.main - INFO - 1 change detected
+2026-01-07 11:43:18,149 - uvicorn.error - WARNING - WatchFiles detected changes in 'search.py'. Reloading...
+2026-01-07 11:43:18,230 - uvicorn.error - INFO - Shutting down
+2026-01-07 11:43:18,333 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-01-07 11:43:18,336 - uvicorn.error - INFO - Application shutdown complete.
+2026-01-07 11:43:18,337 - uvicorn.error - INFO - Finished server process [3373]
+2026-01-07 11:43:18,787 - watchfiles.main - INFO - 1 change detected
+2026-01-07 11:43:20,094 - uvicorn.error - INFO - Started server process [3501]
+2026-01-07 11:43:20,095 - uvicorn.error - INFO - Waiting for application startup.
+2026-01-07 11:43:20,095 - uvicorn.error - INFO - Application startup complete.
+2026-01-07 11:43:25,360 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 11:43:27,078 - search - INFO - SEARCH: 'modern pergola' | tokens: 3 | cost: $0.000000 | results: 10 | 
+2026-01-07 11:59:19,268 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 11:59:21,117 - search - INFO - SEARCH: 'swimming pools with red ribbon' | tokens: 6 | cost: $0.000000 | results: 10 | 
+2026-01-07 12:04:40,322 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 12:04:41,872 - search - INFO - SEARCH: 'aerial view of stadiums' | tokens: 5 | cost: $0.000000 | results: 10 | 
+2026-01-07 12:07:30,685 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 12:07:32,557 - search - INFO - SEARCH: 'of baseball grounds' | tokens: 3 | cost: $0.000000 | results: 10 | 
+2026-01-07 12:08:33,153 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 12:08:34,672 - search - INFO - SEARCH: 'aerial view of baseball grounds' | tokens: 6 | cost: $0.000000 | results: 10 | 
+2026-01-07 12:08:47,681 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 12:08:48,432 - search - INFO - SEARCH: 'of baseball grounds' | tokens: 3 | cost: $0.000000 | results: 10 | 
+2026-01-07 12:10:04,614 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 12:10:06,142 - search - INFO - SEARCH: 'baseball grounds' | tokens: 3 | cost: $0.000000 | results: 10 | 
+2026-01-07 12:22:57,618 - watchfiles.main - INFO - 1 change detected
+2026-01-07 12:23:40,220 - watchfiles.main - INFO - 1 change detected
+2026-01-07 12:23:40,220 - uvicorn.error - WARNING - WatchFiles detected changes in 'search.py'. Reloading...
+2026-01-07 12:23:40,279 - uvicorn.error - INFO - Shutting down
+2026-01-07 12:23:40,381 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-01-07 12:23:40,382 - uvicorn.error - INFO - Application shutdown complete.
+2026-01-07 12:23:40,382 - uvicorn.error - INFO - Finished server process [3501]
+2026-01-07 12:23:40,845 - watchfiles.main - INFO - 1 change detected
+2026-01-07 12:24:48,775 - watchfiles.main - INFO - 1 change detected
+2026-01-07 12:24:48,776 - uvicorn.error - WARNING - WatchFiles detected changes in 'search.py'. Reloading...
+2026-01-07 12:25:56,151 - watchfiles.main - INFO - 1 change detected
+2026-01-07 12:25:56,152 - uvicorn.error - WARNING - WatchFiles detected changes in 'search.py'. Reloading...
+2026-01-07 12:25:58,037 - uvicorn.error - INFO - Started server process [3854]
+2026-01-07 12:25:58,038 - uvicorn.error - INFO - Waiting for application startup.
+2026-01-07 12:25:58,039 - uvicorn.error - INFO - Application startup complete.
+2026-01-07 12:25:58,981 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 12:26:00,931 - search - INFO - SEARCH: 'baseball grounds' | tokens: 3 | cost: $0.000000 | results: 10 | 
+2026-01-07 12:26:24,352 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 12:26:24,966 - search - INFO - SEARCH: 'yellow objects in low light' | tokens: 5 | cost: $0.000000 | results: 10 | 
+2026-01-07 12:27:16,555 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 12:27:16,881 - search - INFO - SEARCH: 'bright light fountain' | tokens: 3 | cost: $0.000000 | results: 10 | 
+2026-01-07 12:42:38,919 - watchfiles.main - INFO - 1 change detected
+2026-01-07 12:43:52,085 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 12:43:53,793 - search - INFO - SEARCH: 'vehicles earth dirty' | tokens: 3 | cost: $0.000000 | results: 10 | 
+2026-01-07 12:44:46,034 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 12:44:46,345 - search - INFO - SEARCH: 'vehicles earth heavy machine' | tokens: 4 | cost: $0.000000 | results: 10 | 
+2026-01-07 12:46:26,995 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 12:46:28,436 - search - INFO - SEARCH: 'bulldozer road' | tokens: 5 | cost: $0.000000 | results: 10 | 
+2026-01-07 13:58:53,688 - watchfiles.main - INFO - 1 change detected
+2026-01-07 13:59:09,696 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 13:59:11,410 - search - INFO - SEARCH: 'Children playing' | tokens: 2 | cost: $0.000000 | results: 10 | 
+2026-01-07 14:00:29,863 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 14:00:31,437 - search - INFO - SEARCH: 'Black chairs' | tokens: 2 | cost: $0.000000 | results: 10 | 
+2026-01-07 14:01:12,620 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 14:01:13,290 - search - INFO - SEARCH: 'Black' | tokens: 1 | cost: $0.000000 | results: 10 | 
+2026-01-07 14:01:58,748 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 14:01:59,053 - search - INFO - SEARCH: 'chairs' | tokens: 2 | cost: $0.000000 | results: 10 | 
+2026-01-07 14:03:06,616 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 14:03:08,246 - search - INFO - SEARCH: 'red chairs' | tokens: 2 | cost: $0.000000 | results: 10 | 
+2026-01-07 14:08:14,808 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 14:08:16,482 - search - INFO - SEARCH: 'black benches' | tokens: 2 | cost: $0.000000 | results: 10 | 
+2026-01-07 14:50:57,326 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 14:50:59,208 - search - INFO - SEARCH: 'black chairs' | tokens: 2 | cost: $0.000000 | results: 10 | 
+2026-01-07 14:53:40,725 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 14:53:42,281 - search - INFO - SEARCH: 'Swing parks' | tokens: 3 | cost: $0.000000 | results: 10 | 
+2026-01-07 14:57:07,779 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 14:57:09,406 - search - INFO - SEARCH: 'show me a father playing with a child on a swing' | tokens: 11 | cost: $0.000000 | results: 10 | 
+2026-01-07 14:58:30,181 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 14:58:31,998 - search - INFO - SEARCH: 'Family having food together' | tokens: 4 | cost: $0.000000 | results: 10 | 
+2026-01-07 15:21:12,065 - watchfiles.main - INFO - 1 change detected
+2026-01-07 15:21:53,173 - watchfiles.main - INFO - 1 change detected
+2026-01-07 15:21:53,175 - uvicorn.error - WARNING - WatchFiles detected changes in 'search.py'. Reloading...
+2026-01-07 15:21:53,253 - uvicorn.error - INFO - Shutting down
+2026-01-07 15:21:53,357 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-01-07 15:21:53,360 - uvicorn.error - INFO - Application shutdown complete.
+2026-01-07 15:21:53,361 - uvicorn.error - INFO - Finished server process [3854]
+2026-01-07 15:21:53,821 - watchfiles.main - INFO - 1 change detected
+2026-01-07 15:21:55,659 - uvicorn.error - INFO - Started server process [5064]
+2026-01-07 15:21:55,660 - uvicorn.error - INFO - Waiting for application startup.
+2026-01-07 15:21:55,661 - uvicorn.error - INFO - Application startup complete.
+2026-01-07 15:22:48,019 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 15:22:49,878 - search - INFO - SEARCH: 'Family having food together' | tokens: 4 | cost: $0.000000 | results: 10 | 
+2026-01-07 15:23:47,102 - watchfiles.main - INFO - 1 change detected
+2026-01-07 15:23:59,314 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 15:24:01,138 - search - INFO - SEARCH: 'Family having food together' | tokens: 4 | cost: $0.000000 | results: 10 | 
+2026-01-07 15:24:50,564 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 15:24:51,156 - search - INFO - SEARCH: 'family having lunch together' | tokens: 4 | cost: $0.000000 | results: 10 | 
+2026-01-07 15:25:16,653 - watchfiles.main - INFO - 1 change detected
+2026-01-07 15:26:10,654 - watchfiles.main - INFO - 1 change detected
+2026-01-07 15:26:34,515 - uvicorn.error - INFO - Will watch for changes in these directories: ['/Applications/XAMPP/xamppfiles/htdocs/s5search']
+2026-01-07 15:26:34,516 - uvicorn.error - ERROR - [Errno 48] Address already in use
+2026-01-07 15:26:34,677 - watchfiles.main - INFO - 1 change detected
+2026-01-07 15:26:55,291 - uvicorn.error - INFO - Will watch for changes in these directories: ['/Applications/XAMPP/xamppfiles/htdocs/s5search']
+2026-01-07 15:26:55,292 - uvicorn.error - INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2026-01-07 15:26:55,293 - uvicorn.error - INFO - Started reloader process [5987] using WatchFiles
+2026-01-07 15:26:56,401 - uvicorn.error - INFO - Started server process [5991]
+2026-01-07 15:26:56,402 - uvicorn.error - INFO - Waiting for application startup.
+2026-01-07 15:26:56,403 - uvicorn.error - INFO - Application startup complete.
+2026-01-07 15:27:13,347 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 15:27:15,090 - search - INFO - SEARCH: 'family having lunch together' | tokens: 4 | cost: $0.000000 | results: 10 | 
+2026-01-07 15:29:40,786 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 15:29:42,943 - search - INFO - SEARCH: 'father playing with child on swing' | tokens: 6 | cost: $0.000000 | results: 10 | 
+2026-01-07 15:30:36,136 - uvicorn.error - INFO - Will watch for changes in these directories: ['/Applications/XAMPP/xamppfiles/htdocs/s5search']
+2026-01-07 15:30:36,136 - uvicorn.error - INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2026-01-07 15:30:36,137 - uvicorn.error - INFO - Started reloader process [6262] using WatchFiles
+2026-01-07 15:30:37,183 - uvicorn.error - INFO - Started server process [6266]
+2026-01-07 15:30:37,184 - uvicorn.error - INFO - Waiting for application startup.
+2026-01-07 15:30:37,185 - uvicorn.error - INFO - Application startup complete.
+2026-01-07 15:30:49,212 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 15:30:50,993 - search - INFO - SEARCH: 'father playing with child on swing' | tokens: 6 | cost: $0.000000 | results: 10 | 
+2026-01-07 15:57:47,328 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 15:57:48,987 - search - INFO - SEARCH: 'only show a father playing with child on swing' | tokens: 9 | cost: $0.000000 | results: 10 | 
+2026-01-07 16:00:03,824 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 16:00:05,331 - search - INFO - SEARCH: 'specifically show a father playing with child on swing' | tokens: 10 | cost: $0.000000 | results: 10 | 
+2026-01-07 16:00:51,201 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 16:00:51,617 - search - INFO - SEARCH: 'show a father playing with child on swing Do not show any female adult' | tokens: 14 | cost: $0.000000 | results: 10 | 
+2026-01-07 16:15:17,108 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-07 16:15:18,828 - search - INFO - SEARCH: 'space ships and rockets' | tokens: 4 | cost: $0.000000 | results: 10 | 
+2026-01-07 18:11:37,741 - watchfiles.main - INFO - 1 change detected
+2026-01-07 18:13:37,343 - watchfiles.main - INFO - 1 change detected
+2026-01-07 18:13:39,752 - watchfiles.main - INFO - 1 change detected
+2026-01-07 18:15:41,648 - watchfiles.main - INFO - 34 changes detected
+2026-01-07 18:16:31,307 - watchfiles.main - INFO - 1 change detected
+2026-01-07 18:16:39,892 - watchfiles.main - INFO - 8294 changes detected
+2026-01-07 18:16:40,793 - watchfiles.main - INFO - 3738 changes detected
+2026-01-07 18:17:16,982 - watchfiles.main - INFO - 1 change detected
+2026-01-07 18:17:21,252 - watchfiles.main - INFO - 1 change detected

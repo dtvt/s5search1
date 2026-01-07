@@ -1,0 +1,16 @@
+# Ignore virtual environment
+env/
+
+# Ignore environment variable files
+.env
+
+# Ignore README (user specified)
+README.md
+
+# Python byte-compiled files and cache directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+asset_search.log

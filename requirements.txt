@@ -1,0 +1,6 @@
+pinecone
+openai
+python-dotenv
+fastapi[standard]
+uvicorn
+python-multipart
