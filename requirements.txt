@@ -1,4 +1,5 @@
 pinecone
+pinecone-text
 openai
 python-dotenv
 fastapi[standard]
